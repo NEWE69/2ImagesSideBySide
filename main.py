@@ -1,8 +1,8 @@
 from PIL import Image
 
 #Open images to fusion
-imgL = Image.open("/home/newe/Images/Screenshots/2024-09-27_09-58_1.png")
-imgR = Image.open("/home/newe/Images/Screenshots/2024-09-27_09-58.png")
+imgL = Image.open("/location/to/your/leftimg.png")
+imgR = Image.open("/location/to/your/rightimg.png")
 
 #Get images size 
 wL, hL = imgL.size
